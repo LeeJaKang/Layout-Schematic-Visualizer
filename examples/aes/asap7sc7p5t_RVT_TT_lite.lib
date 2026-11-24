@@ -1,0 +1,5594 @@
+/* Reduced copy of the ASAP7 RVT TT standard cell Liberty files for the netlist viewer:
+   pins and functions only, no timing or power data.
+   ASAP7 is Copyright 2022 Lawrence T. Clark, Vinay Vashishtha, or Arizona State University,
+   BSD 3-Clause License, see examples/ASAP7_LICENSE. */
+library (asap7sc7p5t_SIMPLE_RVT_TT_nldm_211120) {
+  cell (AND2x2_ASAP7_75t_R) {
+    area : 0.08748 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(A * B)" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+  }
+  cell (AND2x4_ASAP7_75t_R) {
+    area : 0.1458 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(A * B)" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+  }
+  cell (AND2x6_ASAP7_75t_R) {
+    area : 0.17496 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(A * B)" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+  }
+  cell (AND3x1_ASAP7_75t_R) {
+    area : 0.08748 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(A * B * C)" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+    pin (C) {
+      direction : input ;
+    }
+  }
+  cell (AND3x2_ASAP7_75t_R) {
+    area : 0.10206 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(A * B * C)" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+    pin (C) {
+      direction : input ;
+    }
+  }
+  cell (AND3x4_ASAP7_75t_R) {
+    area : 0.20412 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(A * B * C)" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+    pin (C) {
+      direction : input ;
+    }
+  }
+  cell (AND4x1_ASAP7_75t_R) {
+    area : 0.10206 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(A * B * C * D)" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+    pin (C) {
+      direction : input ;
+    }
+    pin (D) {
+      direction : input ;
+    }
+  }
+  cell (AND4x2_ASAP7_75t_R) {
+    area : 0.11664 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(A * B * C * D)" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+    pin (C) {
+      direction : input ;
+    }
+    pin (D) {
+      direction : input ;
+    }
+  }
+  cell (AND5x1_ASAP7_75t_R) {
+    area : 0.11664 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(A * B * C * D * E)" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+    pin (C) {
+      direction : input ;
+    }
+    pin (D) {
+      direction : input ;
+    }
+    pin (E) {
+      direction : input ;
+    }
+  }
+  cell (AND5x2_ASAP7_75t_R) {
+    area : 0.2916 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(A * B * C * D * E)" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+    pin (C) {
+      direction : input ;
+    }
+    pin (D) {
+      direction : input ;
+    }
+    pin (E) {
+      direction : input ;
+    }
+  }
+  cell (FAx1_ASAP7_75t_R) {
+    area : 0.20412 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (CON) {
+      direction : output ;
+      function : "(!A * !B) + (!A * !CI) + (!B * !CI)" ;
+    }
+    pin (SN) {
+      direction : output ;
+      function : "(A * B * !CI) + (A * !B * CI) + (!A * B * CI) + (!A * !B * !CI)" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+    pin (CI) {
+      direction : input ;
+    }
+  }
+  cell (HAxp5_ASAP7_75t_R) {
+    area : 0.13122 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (CON) {
+      direction : output ;
+      function : "(!A) + (!B)" ;
+    }
+    pin (SN) {
+      direction : output ;
+      function : "(A * B) + (!A * !B)" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+  }
+  cell (MAJIxp5_ASAP7_75t_R) {
+    area : 0.10206 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(!A * !B) + (!A * !C) + (!B * !C)" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+    pin (C) {
+      direction : input ;
+    }
+  }
+  cell (MAJx2_ASAP7_75t_R) {
+    area : 0.13122 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(A * B) + (A * C) + (B * C)" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+    pin (C) {
+      direction : input ;
+    }
+  }
+  cell (MAJx3_ASAP7_75t_R) {
+    area : 0.1458 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(A * B) + (A * C) + (B * C)" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+    pin (C) {
+      direction : input ;
+    }
+  }
+  cell (NAND2x1_ASAP7_75t_R) {
+    area : 0.08748 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(!A) + (!B)" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+  }
+  cell (NAND2x1p5_ASAP7_75t_R) {
+    area : 0.11664 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(!A) + (!B)" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+  }
+  cell (NAND2x2_ASAP7_75t_R) {
+    area : 0.1458 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(!A) + (!B)" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+  }
+  cell (NAND2xp33_ASAP7_75t_R) {
+    area : 0.05832 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(!A) + (!B)" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+  }
+  cell (NAND2xp5_ASAP7_75t_R) {
+    area : 0.05832 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(!A) + (!B)" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+  }
+  cell (NAND2xp67_ASAP7_75t_R) {
+    area : 0.08748 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(!A) + (!B)" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+  }
+  cell (NAND3x1_ASAP7_75t_R) {
+    area : 0.16038 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(!A) + (!B) + (!C)" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+    pin (C) {
+      direction : input ;
+    }
+  }
+  cell (NAND3x2_ASAP7_75t_R) {
+    area : 0.2916 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(!A) + (!B) + (!C)" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+    pin (C) {
+      direction : input ;
+    }
+  }
+  cell (NAND3xp33_ASAP7_75t_R) {
+    area : 0.0729 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(!A) + (!B) + (!C)" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+    pin (C) {
+      direction : input ;
+    }
+  }
+  cell (NAND4xp25_ASAP7_75t_R) {
+    area : 0.08748 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(!A) + (!B) + (!C) + (!D)" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+    pin (C) {
+      direction : input ;
+    }
+    pin (D) {
+      direction : input ;
+    }
+  }
+  cell (NAND4xp75_ASAP7_75t_R) {
+    area : 0.20412 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(!A) + (!B) + (!C) + (!D)" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+    pin (C) {
+      direction : input ;
+    }
+    pin (D) {
+      direction : input ;
+    }
+  }
+  cell (NAND5xp2_ASAP7_75t_R) {
+    area : 0.10206 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(!A) + (!B) + (!C) + (!D) + (!E)" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+    pin (C) {
+      direction : input ;
+    }
+    pin (D) {
+      direction : input ;
+    }
+    pin (E) {
+      direction : input ;
+    }
+  }
+  cell (NOR2x1_ASAP7_75t_R) {
+    area : 0.08748 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(!A * !B)" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+  }
+  cell (NOR2x1p5_ASAP7_75t_R) {
+    area : 0.11664 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(!A * !B)" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+  }
+  cell (NOR2x2_ASAP7_75t_R) {
+    area : 0.1458 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(!A * !B)" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+  }
+  cell (NOR2xp33_ASAP7_75t_R) {
+    area : 0.05832 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(!A * !B)" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+  }
+  cell (NOR2xp67_ASAP7_75t_R) {
+    area : 0.08748 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(!A * !B)" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+  }
+  cell (NOR3x1_ASAP7_75t_R) {
+    area : 0.16038 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(!A * !B * !C)" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+    pin (C) {
+      direction : input ;
+    }
+  }
+  cell (NOR3x2_ASAP7_75t_R) {
+    area : 0.2916 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(!A * !B * !C)" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+    pin (C) {
+      direction : input ;
+    }
+  }
+  cell (NOR3xp33_ASAP7_75t_R) {
+    area : 0.0729 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(!A * !B * !C)" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+    pin (C) {
+      direction : input ;
+    }
+  }
+  cell (NOR4xp25_ASAP7_75t_R) {
+    area : 0.08748 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(!A * !B * !C * !D)" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+    pin (C) {
+      direction : input ;
+    }
+    pin (D) {
+      direction : input ;
+    }
+  }
+  cell (NOR4xp75_ASAP7_75t_R) {
+    area : 0.20412 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(!A * !B * !C * !D)" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+    pin (C) {
+      direction : input ;
+    }
+    pin (D) {
+      direction : input ;
+    }
+  }
+  cell (NOR5xp2_ASAP7_75t_R) {
+    area : 0.10206 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(!A * !B * !C * !D * !E)" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+    pin (C) {
+      direction : input ;
+    }
+    pin (D) {
+      direction : input ;
+    }
+    pin (E) {
+      direction : input ;
+    }
+  }
+  cell (OR2x2_ASAP7_75t_R) {
+    area : 0.08748 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(A) + (B)" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+  }
+  cell (OR2x4_ASAP7_75t_R) {
+    area : 0.11664 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(A) + (B)" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+  }
+  cell (OR2x6_ASAP7_75t_R) {
+    area : 0.17496 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(A) + (B)" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+  }
+  cell (OR3x1_ASAP7_75t_R) {
+    area : 0.08748 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(A) + (B) + (C)" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+    pin (C) {
+      direction : input ;
+    }
+  }
+  cell (OR3x2_ASAP7_75t_R) {
+    area : 0.10206 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(A) + (B) + (C)" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+    pin (C) {
+      direction : input ;
+    }
+  }
+  cell (OR3x4_ASAP7_75t_R) {
+    area : 0.13122 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(A) + (B) + (C)" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+    pin (C) {
+      direction : input ;
+    }
+  }
+  cell (OR4x1_ASAP7_75t_R) {
+    area : 0.10206 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(A) + (B) + (C) + (D)" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+    pin (C) {
+      direction : input ;
+    }
+    pin (D) {
+      direction : input ;
+    }
+  }
+  cell (OR4x2_ASAP7_75t_R) {
+    area : 0.11664 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(A) + (B) + (C) + (D)" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+    pin (C) {
+      direction : input ;
+    }
+    pin (D) {
+      direction : input ;
+    }
+  }
+  cell (OR5x1_ASAP7_75t_R) {
+    area : 0.11664 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(A) + (B) + (C) + (D) + (E)" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+    pin (C) {
+      direction : input ;
+    }
+    pin (D) {
+      direction : input ;
+    }
+    pin (E) {
+      direction : input ;
+    }
+  }
+  cell (OR5x2_ASAP7_75t_R) {
+    area : 0.13122 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(A) + (B) + (C) + (D) + (E)" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+    pin (C) {
+      direction : input ;
+    }
+    pin (D) {
+      direction : input ;
+    }
+    pin (E) {
+      direction : input ;
+    }
+  }
+  cell (TIEHIx1_ASAP7_75t_R) {
+    area : 0.04374 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (H) {
+      direction : output ;
+      function : 1 ;
+    }
+  }
+  cell (TIELOx1_ASAP7_75t_R) {
+    area : 0.04374 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (L) {
+      direction : output ;
+      function : 0 ;
+    }
+  }
+  cell (XNOR2x1_ASAP7_75t_R) {
+    area : 0.17496 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(A * B) + (!A * !B)" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+  }
+  cell (XNOR2x2_ASAP7_75t_R) {
+    area : 0.16038 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(A * B) + (!A * !B)" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+  }
+  cell (XNOR2xp5_ASAP7_75t_R) {
+    area : 0.13122 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(A * B) + (!A * !B)" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+  }
+  cell (XOR2x1_ASAP7_75t_R) {
+    area : 0.17496 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(A * !B) + (!A * B)" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+  }
+  cell (XOR2x2_ASAP7_75t_R) {
+    area : 0.16038 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(A * !B) + (!A * B)" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+  }
+  cell (XOR2xp5_ASAP7_75t_R) {
+    area : 0.13122 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(A * !B) + (!A * B)" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+  }
+}
+library (asap7sc7p5t_AO_RVT_TT_nldm_211120) {
+  cell (A2O1A1Ixp33_ASAP7_75t_R) {
+    area : 0.08748 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(!A1 * !B) + (!A2 * !B) + (!C)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+    pin (C) {
+      direction : input ;
+    }
+  }
+  cell (A2O1A1O1Ixp25_ASAP7_75t_R) {
+    area : 0.13122 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(!A1 * !B * !D) + (!A2 * !B * !D) + (!C * !D)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+    pin (C) {
+      direction : input ;
+    }
+    pin (D) {
+      direction : input ;
+    }
+  }
+  cell (AO211x2_ASAP7_75t_R) {
+    area : 0.23328 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(A1 * A2) + (B) + (C)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+    pin (C) {
+      direction : input ;
+    }
+  }
+  cell (AO21x1_ASAP7_75t_R) {
+    area : 0.08748 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(A1 * A2) + (B)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+  }
+  cell (AO21x2_ASAP7_75t_R) {
+    area : 0.10206 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(A1 * A2) + (B)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+  }
+  cell (AO221x1_ASAP7_75t_R) {
+    area : 0.1458 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(A1 * A2) + (B1 * B2) + (C)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (B1) {
+      direction : input ;
+    }
+    pin (B2) {
+      direction : input ;
+    }
+    pin (C) {
+      direction : input ;
+    }
+  }
+  cell (AO221x2_ASAP7_75t_R) {
+    area : 0.16038 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(A1 * A2) + (B1 * B2) + (C)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (B1) {
+      direction : input ;
+    }
+    pin (B2) {
+      direction : input ;
+    }
+    pin (C) {
+      direction : input ;
+    }
+  }
+  cell (AO222x2_ASAP7_75t_R) {
+    area : 0.17496 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(A1 * A2) + (B1 * B2) + (C1 * C2)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (B1) {
+      direction : input ;
+    }
+    pin (B2) {
+      direction : input ;
+    }
+    pin (C1) {
+      direction : input ;
+    }
+    pin (C2) {
+      direction : input ;
+    }
+  }
+  cell (AO22x1_ASAP7_75t_R) {
+    area : 0.13122 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(A1 * A2) + (B1 * B2)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (B1) {
+      direction : input ;
+    }
+    pin (B2) {
+      direction : input ;
+    }
+  }
+  cell (AO22x2_ASAP7_75t_R) {
+    area : 0.1458 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(A1 * A2) + (B1 * B2)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (B1) {
+      direction : input ;
+    }
+    pin (B2) {
+      direction : input ;
+    }
+  }
+  cell (AO31x2_ASAP7_75t_R) {
+    area : 0.23328 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(A1 * A2 * A3) + (B)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (A3) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+  }
+  cell (AO322x2_ASAP7_75t_R) {
+    area : 0.2187 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(A1 * A2 * A3) + (B1 * B2) + (C1 * C2)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (A3) {
+      direction : input ;
+    }
+    pin (B1) {
+      direction : input ;
+    }
+    pin (B2) {
+      direction : input ;
+    }
+    pin (C1) {
+      direction : input ;
+    }
+    pin (C2) {
+      direction : input ;
+    }
+  }
+  cell (AO32x1_ASAP7_75t_R) {
+    area : 0.11664 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(A1 * A2 * A3) + (B1 * B2)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (A3) {
+      direction : input ;
+    }
+    pin (B1) {
+      direction : input ;
+    }
+    pin (B2) {
+      direction : input ;
+    }
+  }
+  cell (AO32x2_ASAP7_75t_R) {
+    area : 0.13122 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(A1 * A2 * A3) + (B1 * B2)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (A3) {
+      direction : input ;
+    }
+    pin (B1) {
+      direction : input ;
+    }
+    pin (B2) {
+      direction : input ;
+    }
+  }
+  cell (AO331x1_ASAP7_75t_R) {
+    area : 0.1458 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(A1 * A2 * A3) + (B1 * B2 * B3) + (C)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (A3) {
+      direction : input ;
+    }
+    pin (B1) {
+      direction : input ;
+    }
+    pin (B2) {
+      direction : input ;
+    }
+    pin (B3) {
+      direction : input ;
+    }
+    pin (C) {
+      direction : input ;
+    }
+  }
+  cell (AO331x2_ASAP7_75t_R) {
+    area : 0.16038 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(A1 * A2 * A3) + (B1 * B2 * B3) + (C)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (A3) {
+      direction : input ;
+    }
+    pin (B1) {
+      direction : input ;
+    }
+    pin (B2) {
+      direction : input ;
+    }
+    pin (B3) {
+      direction : input ;
+    }
+    pin (C) {
+      direction : input ;
+    }
+  }
+  cell (AO332x1_ASAP7_75t_R) {
+    area : 0.16038 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(A1 * A2 * A3) + (B1 * B2 * B3) + (C1 * C2)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (A3) {
+      direction : input ;
+    }
+    pin (B1) {
+      direction : input ;
+    }
+    pin (B2) {
+      direction : input ;
+    }
+    pin (B3) {
+      direction : input ;
+    }
+    pin (C1) {
+      direction : input ;
+    }
+    pin (C2) {
+      direction : input ;
+    }
+  }
+  cell (AO332x2_ASAP7_75t_R) {
+    area : 0.17496 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(A1 * A2 * A3) + (B1 * B2 * B3) + (C1 * C2)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (A3) {
+      direction : input ;
+    }
+    pin (B1) {
+      direction : input ;
+    }
+    pin (B2) {
+      direction : input ;
+    }
+    pin (B3) {
+      direction : input ;
+    }
+    pin (C1) {
+      direction : input ;
+    }
+    pin (C2) {
+      direction : input ;
+    }
+  }
+  cell (AO333x1_ASAP7_75t_R) {
+    area : 0.17496 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(A1 * A2 * A3) + (B1 * B2 * B3) + (C1 * C2 * C3)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (A3) {
+      direction : input ;
+    }
+    pin (B1) {
+      direction : input ;
+    }
+    pin (B2) {
+      direction : input ;
+    }
+    pin (B3) {
+      direction : input ;
+    }
+    pin (C1) {
+      direction : input ;
+    }
+    pin (C2) {
+      direction : input ;
+    }
+    pin (C3) {
+      direction : input ;
+    }
+  }
+  cell (AO333x2_ASAP7_75t_R) {
+    area : 0.18954 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(A1 * A2 * A3) + (B1 * B2 * B3) + (C1 * C2 * C3)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (A3) {
+      direction : input ;
+    }
+    pin (B1) {
+      direction : input ;
+    }
+    pin (B2) {
+      direction : input ;
+    }
+    pin (B3) {
+      direction : input ;
+    }
+    pin (C1) {
+      direction : input ;
+    }
+    pin (C2) {
+      direction : input ;
+    }
+    pin (C3) {
+      direction : input ;
+    }
+  }
+  cell (AO33x2_ASAP7_75t_R) {
+    area : 0.1458 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(A1 * A2 * A3) + (B1 * B2 * B3)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (A3) {
+      direction : input ;
+    }
+    pin (B1) {
+      direction : input ;
+    }
+    pin (B2) {
+      direction : input ;
+    }
+    pin (B3) {
+      direction : input ;
+    }
+  }
+  cell (AOI211x1_ASAP7_75t_R) {
+    area : 0.17496 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(!A1 * !B * !C) + (!A2 * !B * !C)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+    pin (C) {
+      direction : input ;
+    }
+  }
+  cell (AOI211xp5_ASAP7_75t_R) {
+    area : 0.08748 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(!A1 * !B * !C) + (!A2 * !B * !C)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+    pin (C) {
+      direction : input ;
+    }
+  }
+  cell (AOI21x1_ASAP7_75t_R) {
+    area : 0.11664 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(!A1 * !B) + (!A2 * !B)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+  }
+  cell (AOI21xp33_ASAP7_75t_R) {
+    area : 0.0729 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(!A1 * !B) + (!A2 * !B)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+  }
+  cell (AOI21xp5_ASAP7_75t_R) {
+    area : 0.0729 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(!A1 * !B) + (!A2 * !B)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+  }
+  cell (AOI221x1_ASAP7_75t_R) {
+    area : 0.20412 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(!A1 * !B1 * !C) + (!A1 * !B2 * !C) + (!A2 * !B1 * !C) + (!A2 * !B2 * !C)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (B1) {
+      direction : input ;
+    }
+    pin (B2) {
+      direction : input ;
+    }
+    pin (C) {
+      direction : input ;
+    }
+  }
+  cell (AOI221xp5_ASAP7_75t_R) {
+    area : 0.10206 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(!A1 * !B1 * !C) + (!A1 * !B2 * !C) + (!A2 * !B1 * !C) + (!A2 * !B2 * !C)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (B1) {
+      direction : input ;
+    }
+    pin (B2) {
+      direction : input ;
+    }
+    pin (C) {
+      direction : input ;
+    }
+  }
+  cell (AOI222xp33_ASAP7_75t_R) {
+    area : 0.1458 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(!A1 * !B1 * !C1) + (!A1 * !B1 * !C2) + (!A1 * !B2 * !C1) + (!A1 * !B2 * !C2) + (!A2 * !B1 * !C1) + (!A2 * !B1 * !C2) + (!A2 * !B2 * !C1) + (!A2 * !B2 * !C2)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (B1) {
+      direction : input ;
+    }
+    pin (B2) {
+      direction : input ;
+    }
+    pin (C1) {
+      direction : input ;
+    }
+    pin (C2) {
+      direction : input ;
+    }
+  }
+  cell (AOI22x1_ASAP7_75t_R) {
+    area : 0.1458 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(!A1 * !B1) + (!A1 * !B2) + (!A2 * !B1) + (!A2 * !B2)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (B1) {
+      direction : input ;
+    }
+    pin (B2) {
+      direction : input ;
+    }
+  }
+  cell (AOI22xp33_ASAP7_75t_R) {
+    area : 0.08748 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(!A1 * !B1) + (!A1 * !B2) + (!A2 * !B1) + (!A2 * !B2)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (B1) {
+      direction : input ;
+    }
+    pin (B2) {
+      direction : input ;
+    }
+  }
+  cell (AOI22xp5_ASAP7_75t_R) {
+    area : 0.08748 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(!A1 * !B1) + (!A1 * !B2) + (!A2 * !B1) + (!A2 * !B2)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (B1) {
+      direction : input ;
+    }
+    pin (B2) {
+      direction : input ;
+    }
+  }
+  cell (AOI311xp33_ASAP7_75t_R) {
+    area : 0.10206 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(!A1 * !B * !C) + (!A2 * !B * !C) + (!A3 * !B * !C)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (A3) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+    pin (C) {
+      direction : input ;
+    }
+  }
+  cell (AOI31xp33_ASAP7_75t_R) {
+    area : 0.08748 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(!A1 * !B) + (!A2 * !B) + (!A3 * !B)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (A3) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+  }
+  cell (AOI31xp67_ASAP7_75t_R) {
+    area : 0.18954 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(!A1 * !B) + (!A2 * !B) + (!A3 * !B)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (A3) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+  }
+  cell (AOI321xp33_ASAP7_75t_R) {
+    area : 0.11664 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(!A1 * !B1 * !C) + (!A1 * !B2 * !C) + (!A2 * !B1 * !C) + (!A2 * !B2 * !C) + (!A3 * !B1 * !C) + (!A3 * !B2 * !C)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (A3) {
+      direction : input ;
+    }
+    pin (B1) {
+      direction : input ;
+    }
+    pin (B2) {
+      direction : input ;
+    }
+    pin (C) {
+      direction : input ;
+    }
+  }
+  cell (AOI322xp5_ASAP7_75t_R) {
+    area : 0.13122 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(!A1 * !B1 * !C1) + (!A1 * !B1 * !C2) + (!A1 * !B2 * !C1) + (!A1 * !B2 * !C2) + (!A2 * !B1 * !C1) + (!A2 * !B1 * !C2) + (!A2 * !B2 * !C1) + (!A2 * !B2 * !C2) + (!A3 * !B1 * !C1) + (!A3 * !B1 * !C2) + (!A3 * !B2 * !C1) + (!A3 * !B2 * !C2)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (A3) {
+      direction : input ;
+    }
+    pin (B1) {
+      direction : input ;
+    }
+    pin (B2) {
+      direction : input ;
+    }
+    pin (C1) {
+      direction : input ;
+    }
+    pin (C2) {
+      direction : input ;
+    }
+  }
+  cell (AOI32xp33_ASAP7_75t_R) {
+    area : 0.10206 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(!A1 * !B1) + (!A1 * !B2) + (!A2 * !B1) + (!A2 * !B2) + (!A3 * !B1) + (!A3 * !B2)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (A3) {
+      direction : input ;
+    }
+    pin (B1) {
+      direction : input ;
+    }
+    pin (B2) {
+      direction : input ;
+    }
+  }
+  cell (AOI331xp33_ASAP7_75t_R) {
+    area : 0.13122 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(!A1 * !B1 * !C1) + (!A1 * !B2 * !C1) + (!A1 * !B3 * !C1) + (!A2 * !B1 * !C1) + (!A2 * !B2 * !C1) + (!A2 * !B3 * !C1) + (!A3 * !B1 * !C1) + (!A3 * !B2 * !C1) + (!A3 * !B3 * !C1)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (A3) {
+      direction : input ;
+    }
+    pin (B1) {
+      direction : input ;
+    }
+    pin (B2) {
+      direction : input ;
+    }
+    pin (B3) {
+      direction : input ;
+    }
+    pin (C1) {
+      direction : input ;
+    }
+  }
+  cell (AOI332xp33_ASAP7_75t_R) {
+    area : 0.1458 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(!A1 * !B1 * !C1) + (!A1 * !B1 * !C2) + (!A1 * !B2 * !C1) + (!A1 * !B2 * !C2) + (!A1 * !B3 * !C1) + (!A1 * !B3 * !C2) + (!A2 * !B1 * !C1) + (!A2 * !B1 * !C2) + (!A2 * !B2 * !C1) + (!A2 * !B2 * !C2) + (!A2 * !B3 * !C1) + (!A2 * !B3 * !C2) + (!A3 * !B1 * !C1) + (!A3 * !B1 * !C2) + (!A3 * !B2 * !C1) + (!A3 * !B2 * !C2) + (!A3 * !B3 * !C1) + (!A3 * !B3 * !C2)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (A3) {
+      direction : input ;
+    }
+    pin (B1) {
+      direction : input ;
+    }
+    pin (B2) {
+      direction : input ;
+    }
+    pin (B3) {
+      direction : input ;
+    }
+    pin (C1) {
+      direction : input ;
+    }
+    pin (C2) {
+      direction : input ;
+    }
+  }
+  cell (AOI333xp33_ASAP7_75t_R) {
+    area : 0.16038 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(!A1 * !B1 * !C1) + (!A1 * !B1 * !C2) + (!A1 * !B1 * !C3) + (!A1 * !B2 * !C1) + (!A1 * !B2 * !C2) + (!A1 * !B2 * !C3) + (!A1 * !B3 * !C1) + (!A1 * !B3 * !C2) + (!A1 * !B3 * !C3) + (!A2 * !B1 * !C1) + (!A2 * !B1 * !C2) + (!A2 * !B1 * !C3) + (!A2 * !B2 * !C1) + (!A2 * !B2 * !C2) + (!A2 * !B2 * !C3) + (!A2 * !B3 * !C1) + (!A2 * !B3 * !C2) + (!A2 * !B3 * !C3) + (!A3 * !B1 * !C1) + (!A3 * !B1 * !C2) + (!A3 * !B1 * !C3) + (!A3 * !B2 * !C1) + (!A3 * !B2 * !C2) + (!A3 * !B2 * !C3) + (!A3 * !B3 * !C1) + (!A3 * !B3 * !C2) + (!A3 * !B3 * !C3)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (A3) {
+      direction : input ;
+    }
+    pin (B1) {
+      direction : input ;
+    }
+    pin (B2) {
+      direction : input ;
+    }
+    pin (B3) {
+      direction : input ;
+    }
+    pin (C1) {
+      direction : input ;
+    }
+    pin (C2) {
+      direction : input ;
+    }
+    pin (C3) {
+      direction : input ;
+    }
+  }
+  cell (AOI33xp33_ASAP7_75t_R) {
+    area : 0.11664 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(!A1 * !B1) + (!A1 * !B2) + (!A1 * !B3) + (!A2 * !B1) + (!A2 * !B2) + (!A2 * !B3) + (!A3 * !B1) + (!A3 * !B2) + (!A3 * !B3)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (A3) {
+      direction : input ;
+    }
+    pin (B1) {
+      direction : input ;
+    }
+    pin (B2) {
+      direction : input ;
+    }
+    pin (B3) {
+      direction : input ;
+    }
+  }
+}
+library (asap7sc7p5t_OA_RVT_TT_nldm_211120) {
+  cell (O2A1O1Ixp33_ASAP7_75t_R) {
+    area : 0.08748 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(!A1 * !A2 * !C) + (!B * !C)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+    pin (C) {
+      direction : input ;
+    }
+  }
+  cell (O2A1O1Ixp5_ASAP7_75t_R) {
+    area : 0.11664 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(!A1 * !A2 * !C) + (!B * !C)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+    pin (C) {
+      direction : input ;
+    }
+  }
+  cell (OA211x2_ASAP7_75t_R) {
+    area : 0.11664 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(A1 * B * C) + (A2 * B * C)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+    pin (C) {
+      direction : input ;
+    }
+  }
+  cell (OA21x2_ASAP7_75t_R) {
+    area : 0.10206 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(A1 * B) + (A2 * B)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+  }
+  cell (OA221x2_ASAP7_75t_R) {
+    area : 0.23328 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(A1 * B1 * C) + (A1 * B2 * C) + (A2 * B1 * C) + (A2 * B2 * C)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (B1) {
+      direction : input ;
+    }
+    pin (B2) {
+      direction : input ;
+    }
+    pin (C) {
+      direction : input ;
+    }
+  }
+  cell (OA222x2_ASAP7_75t_R) {
+    area : 0.17496 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(A1 * B1 * C1) + (A1 * B1 * C2) + (A1 * B2 * C1) + (A1 * B2 * C2) + (A2 * B1 * C1) + (A2 * B1 * C2) + (A2 * B2 * C1) + (A2 * B2 * C2)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (B1) {
+      direction : input ;
+    }
+    pin (B2) {
+      direction : input ;
+    }
+    pin (C1) {
+      direction : input ;
+    }
+    pin (C2) {
+      direction : input ;
+    }
+  }
+  cell (OA22x2_ASAP7_75t_R) {
+    area : 0.1458 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(A1 * B1) + (A1 * B2) + (A2 * B1) + (A2 * B2)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (B1) {
+      direction : input ;
+    }
+    pin (B2) {
+      direction : input ;
+    }
+  }
+  cell (OA31x2_ASAP7_75t_R) {
+    area : 0.2187 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(A1 * B1) + (A2 * B1) + (A3 * B1)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (A3) {
+      direction : input ;
+    }
+    pin (B1) {
+      direction : input ;
+    }
+  }
+  cell (OA331x1_ASAP7_75t_R) {
+    area : 0.1458 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(A1 * B1 * C1) + (A1 * B2 * C1) + (A1 * B3 * C1) + (A2 * B1 * C1) + (A2 * B2 * C1) + (A2 * B3 * C1) + (A3 * B1 * C1) + (A3 * B2 * C1) + (A3 * B3 * C1)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (A3) {
+      direction : input ;
+    }
+    pin (B1) {
+      direction : input ;
+    }
+    pin (B2) {
+      direction : input ;
+    }
+    pin (B3) {
+      direction : input ;
+    }
+    pin (C1) {
+      direction : input ;
+    }
+  }
+  cell (OA331x2_ASAP7_75t_R) {
+    area : 0.16038 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(A1 * B1 * C1) + (A1 * B2 * C1) + (A1 * B3 * C1) + (A2 * B1 * C1) + (A2 * B2 * C1) + (A2 * B3 * C1) + (A3 * B1 * C1) + (A3 * B2 * C1) + (A3 * B3 * C1)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (A3) {
+      direction : input ;
+    }
+    pin (B1) {
+      direction : input ;
+    }
+    pin (B2) {
+      direction : input ;
+    }
+    pin (B3) {
+      direction : input ;
+    }
+    pin (C1) {
+      direction : input ;
+    }
+  }
+  cell (OA332x1_ASAP7_75t_R) {
+    area : 0.16038 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(A1 * B1 * C1) + (A1 * B1 * C2) + (A1 * B2 * C1) + (A1 * B2 * C2) + (A1 * B3 * C1) + (A1 * B3 * C2) + (A2 * B1 * C1) + (A2 * B1 * C2) + (A2 * B2 * C1) + (A2 * B2 * C2) + (A2 * B3 * C1) + (A2 * B3 * C2) + (A3 * B1 * C1) + (A3 * B1 * C2) + (A3 * B2 * C1) + (A3 * B2 * C2) + (A3 * B3 * C1) + (A3 * B3 * C2)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (A3) {
+      direction : input ;
+    }
+    pin (B1) {
+      direction : input ;
+    }
+    pin (B2) {
+      direction : input ;
+    }
+    pin (B3) {
+      direction : input ;
+    }
+    pin (C1) {
+      direction : input ;
+    }
+    pin (C2) {
+      direction : input ;
+    }
+  }
+  cell (OA332x2_ASAP7_75t_R) {
+    area : 0.17496 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(A1 * B1 * C1) + (A1 * B1 * C2) + (A1 * B2 * C1) + (A1 * B2 * C2) + (A1 * B3 * C1) + (A1 * B3 * C2) + (A2 * B1 * C1) + (A2 * B1 * C2) + (A2 * B2 * C1) + (A2 * B2 * C2) + (A2 * B3 * C1) + (A2 * B3 * C2) + (A3 * B1 * C1) + (A3 * B1 * C2) + (A3 * B2 * C1) + (A3 * B2 * C2) + (A3 * B3 * C1) + (A3 * B3 * C2)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (A3) {
+      direction : input ;
+    }
+    pin (B1) {
+      direction : input ;
+    }
+    pin (B2) {
+      direction : input ;
+    }
+    pin (B3) {
+      direction : input ;
+    }
+    pin (C1) {
+      direction : input ;
+    }
+    pin (C2) {
+      direction : input ;
+    }
+  }
+  cell (OA333x1_ASAP7_75t_R) {
+    area : 0.17496 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(A1 * B1 * C1) + (A1 * B1 * C2) + (A1 * B1 * C3) + (A1 * B2 * C1) + (A1 * B2 * C2) + (A1 * B2 * C3) + (A1 * B3 * C1) + (A1 * B3 * C2) + (A1 * B3 * C3) + (A2 * B1 * C1) + (A2 * B1 * C2) + (A2 * B1 * C3) + (A2 * B2 * C1) + (A2 * B2 * C2) + (A2 * B2 * C3) + (A2 * B3 * C1) + (A2 * B3 * C2) + (A2 * B3 * C3) + (A3 * B1 * C1) + (A3 * B1 * C2) + (A3 * B1 * C3) + (A3 * B2 * C1) + (A3 * B2 * C2) + (A3 * B2 * C3) + (A3 * B3 * C1) + (A3 * B3 * C2) + (A3 * B3 * C3)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (A3) {
+      direction : input ;
+    }
+    pin (B1) {
+      direction : input ;
+    }
+    pin (B2) {
+      direction : input ;
+    }
+    pin (B3) {
+      direction : input ;
+    }
+    pin (C1) {
+      direction : input ;
+    }
+    pin (C2) {
+      direction : input ;
+    }
+    pin (C3) {
+      direction : input ;
+    }
+  }
+  cell (OA333x2_ASAP7_75t_R) {
+    area : 0.18954 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(A1 * B1 * C1) + (A1 * B1 * C2) + (A1 * B1 * C3) + (A1 * B2 * C1) + (A1 * B2 * C2) + (A1 * B2 * C3) + (A1 * B3 * C1) + (A1 * B3 * C2) + (A1 * B3 * C3) + (A2 * B1 * C1) + (A2 * B1 * C2) + (A2 * B1 * C3) + (A2 * B2 * C1) + (A2 * B2 * C2) + (A2 * B2 * C3) + (A2 * B3 * C1) + (A2 * B3 * C2) + (A2 * B3 * C3) + (A3 * B1 * C1) + (A3 * B1 * C2) + (A3 * B1 * C3) + (A3 * B2 * C1) + (A3 * B2 * C2) + (A3 * B2 * C3) + (A3 * B3 * C1) + (A3 * B3 * C2) + (A3 * B3 * C3)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (A3) {
+      direction : input ;
+    }
+    pin (B1) {
+      direction : input ;
+    }
+    pin (B2) {
+      direction : input ;
+    }
+    pin (B3) {
+      direction : input ;
+    }
+    pin (C1) {
+      direction : input ;
+    }
+    pin (C2) {
+      direction : input ;
+    }
+    pin (C3) {
+      direction : input ;
+    }
+  }
+  cell (OA33x2_ASAP7_75t_R) {
+    area : 0.1458 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(A1 * B1) + (A1 * B2) + (A1 * B3) + (A2 * B1) + (A2 * B2) + (A2 * B3) + (A3 * B1) + (A3 * B2) + (A3 * B3)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (A3) {
+      direction : input ;
+    }
+    pin (B1) {
+      direction : input ;
+    }
+    pin (B2) {
+      direction : input ;
+    }
+    pin (B3) {
+      direction : input ;
+    }
+  }
+  cell (OAI211xp5_ASAP7_75t_R) {
+    area : 0.08748 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(!A1 * !A2) + (!B) + (!C)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+    pin (C) {
+      direction : input ;
+    }
+  }
+  cell (OAI21x1_ASAP7_75t_R) {
+    area : 0.11664 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(!A1 * !A2) + (!B)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+  }
+  cell (OAI21xp33_ASAP7_75t_R) {
+    area : 0.0729 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(!A1 * !A2) + (!B)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+  }
+  cell (OAI21xp5_ASAP7_75t_R) {
+    area : 0.0729 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(!A1 * !A2) + (!B)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+  }
+  cell (OAI221xp5_ASAP7_75t_R) {
+    area : 0.10206 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(!A1 * !A2) + (!B1 * !B2) + (!C)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (B1) {
+      direction : input ;
+    }
+    pin (B2) {
+      direction : input ;
+    }
+    pin (C) {
+      direction : input ;
+    }
+  }
+  cell (OAI222xp33_ASAP7_75t_R) {
+    area : 0.1458 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(!A1 * !A2) + (!B1 * !B2) + (!C1 * !C2)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (B1) {
+      direction : input ;
+    }
+    pin (B2) {
+      direction : input ;
+    }
+    pin (C1) {
+      direction : input ;
+    }
+    pin (C2) {
+      direction : input ;
+    }
+  }
+  cell (OAI22x1_ASAP7_75t_R) {
+    area : 0.1458 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(!A1 * !A2) + (!B1 * !B2)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (B1) {
+      direction : input ;
+    }
+    pin (B2) {
+      direction : input ;
+    }
+  }
+  cell (OAI22xp33_ASAP7_75t_R) {
+    area : 0.08748 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(!A1 * !A2) + (!B1 * !B2)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (B1) {
+      direction : input ;
+    }
+    pin (B2) {
+      direction : input ;
+    }
+  }
+  cell (OAI22xp5_ASAP7_75t_R) {
+    area : 0.08748 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(!A1 * !A2) + (!B1 * !B2)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (B1) {
+      direction : input ;
+    }
+    pin (B2) {
+      direction : input ;
+    }
+  }
+  cell (OAI311xp33_ASAP7_75t_R) {
+    area : 0.10206 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(!A1 * !A2 * !A3) + (!B1) + (!C1)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (A3) {
+      direction : input ;
+    }
+    pin (B1) {
+      direction : input ;
+    }
+    pin (C1) {
+      direction : input ;
+    }
+  }
+  cell (OAI31xp33_ASAP7_75t_R) {
+    area : 0.08748 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(!A1 * !A2 * !A3) + (!B)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (A3) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+  }
+  cell (OAI31xp67_ASAP7_75t_R) {
+    area : 0.18954 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(!A1 * !A2 * !A3) + (!B)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (A3) {
+      direction : input ;
+    }
+    pin (B) {
+      direction : input ;
+    }
+  }
+  cell (OAI321xp33_ASAP7_75t_R) {
+    area : 0.11664 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(!A1 * !A2 * !A3) + (!B1 * !B2) + (!C)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (A3) {
+      direction : input ;
+    }
+    pin (B1) {
+      direction : input ;
+    }
+    pin (B2) {
+      direction : input ;
+    }
+    pin (C) {
+      direction : input ;
+    }
+  }
+  cell (OAI322xp33_ASAP7_75t_R) {
+    area : 0.13122 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(!A1 * !A2 * !A3) + (!B1 * !B2) + (!C1 * !C2)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (A3) {
+      direction : input ;
+    }
+    pin (B1) {
+      direction : input ;
+    }
+    pin (B2) {
+      direction : input ;
+    }
+    pin (C1) {
+      direction : input ;
+    }
+    pin (C2) {
+      direction : input ;
+    }
+  }
+  cell (OAI32xp33_ASAP7_75t_R) {
+    area : 0.10206 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(!A1 * !A2 * !A3) + (!B1 * !B2)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (A3) {
+      direction : input ;
+    }
+    pin (B1) {
+      direction : input ;
+    }
+    pin (B2) {
+      direction : input ;
+    }
+  }
+  cell (OAI331xp33_ASAP7_75t_R) {
+    area : 0.13122 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(!A1 * !A2 * !A3) + (!B1 * !B2 * !B3) + (!C1)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (A3) {
+      direction : input ;
+    }
+    pin (B1) {
+      direction : input ;
+    }
+    pin (B2) {
+      direction : input ;
+    }
+    pin (B3) {
+      direction : input ;
+    }
+    pin (C1) {
+      direction : input ;
+    }
+  }
+  cell (OAI332xp33_ASAP7_75t_R) {
+    area : 0.1458 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(!A1 * !A2 * !A3) + (!B1 * !B2 * !B3) + (!C1 * !C2)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (A3) {
+      direction : input ;
+    }
+    pin (B1) {
+      direction : input ;
+    }
+    pin (B2) {
+      direction : input ;
+    }
+    pin (B3) {
+      direction : input ;
+    }
+    pin (C1) {
+      direction : input ;
+    }
+    pin (C2) {
+      direction : input ;
+    }
+  }
+  cell (OAI333xp33_ASAP7_75t_R) {
+    area : 0.16038 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(!A1 * !A2 * !A3) + (!B1 * !B2 * !B3) + (!C1 * !C2 * !C3)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (A3) {
+      direction : input ;
+    }
+    pin (B1) {
+      direction : input ;
+    }
+    pin (B2) {
+      direction : input ;
+    }
+    pin (B3) {
+      direction : input ;
+    }
+    pin (C1) {
+      direction : input ;
+    }
+    pin (C2) {
+      direction : input ;
+    }
+    pin (C3) {
+      direction : input ;
+    }
+  }
+  cell (OAI33xp33_ASAP7_75t_R) {
+    area : 0.11664 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "(!A1 * !A2 * !A3) + (!B1 * !B2 * !B3)" ;
+    }
+    pin (A1) {
+      direction : input ;
+    }
+    pin (A2) {
+      direction : input ;
+    }
+    pin (A3) {
+      direction : input ;
+    }
+    pin (B1) {
+      direction : input ;
+    }
+    pin (B2) {
+      direction : input ;
+    }
+    pin (B3) {
+      direction : input ;
+    }
+  }
+}
+library (asap7sc7p5t_INVBUF_RVT_TT_nldm_211120) {
+  cell (BUFx10_ASAP7_75t_R) {
+    area : 0.20412 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : A ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+  }
+  cell (BUFx12_ASAP7_75t_R) {
+    area : 0.23328 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : A ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+  }
+  cell (BUFx12f_ASAP7_75t_R) {
+    area : 0.26244 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : A ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+  }
+  cell (BUFx16f_ASAP7_75t_R) {
+    area : 0.32076 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : A ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+  }
+  cell (BUFx24_ASAP7_75t_R) {
+    area : 0.4374 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : A ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+  }
+  cell (BUFx2_ASAP7_75t_R) {
+    area : 0.0729 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : A ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+  }
+  cell (BUFx3_ASAP7_75t_R) {
+    area : 0.08748 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : A ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+  }
+  cell (BUFx4_ASAP7_75t_R) {
+    area : 0.10206 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : A ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+  }
+  cell (BUFx4f_ASAP7_75t_R) {
+    area : 0.11664 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : A ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+  }
+  cell (BUFx5_ASAP7_75t_R) {
+    area : 0.11664 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : A ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+  }
+  cell (BUFx6f_ASAP7_75t_R) {
+    area : 0.1458 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : A ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+  }
+  cell (BUFx8_ASAP7_75t_R) {
+    area : 0.17496 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : A ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+  }
+  cell (CKINVDCx10_ASAP7_75t_R) {
+    area : 0.34992 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "!A" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+  }
+  cell (CKINVDCx11_ASAP7_75t_R) {
+    area : 0.37908 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "!A" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+  }
+  cell (CKINVDCx12_ASAP7_75t_R) {
+    area : 0.37908 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "!A" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+  }
+  cell (CKINVDCx14_ASAP7_75t_R) {
+    area : 0.40824 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "!A" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+  }
+  cell (CKINVDCx16_ASAP7_75t_R) {
+    area : 0.4374 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "!A" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+  }
+  cell (CKINVDCx20_ASAP7_75t_R) {
+    area : 0.55404 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "!A" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+  }
+  cell (CKINVDCx5p33_ASAP7_75t_R) {
+    area : 0.32076 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "!A" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+  }
+  cell (CKINVDCx6p67_ASAP7_75t_R) {
+    area : 0.34992 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "!A" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+  }
+  cell (CKINVDCx8_ASAP7_75t_R) {
+    area : 0.32076 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "!A" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+  }
+  cell (CKINVDCx9p33_ASAP7_75t_R) {
+    area : 0.40824 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "!A" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+  }
+  cell (HB1xp67_ASAP7_75t_R) {
+    area : 0.05832 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : A ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+  }
+  cell (HB2xp67_ASAP7_75t_R) {
+    area : 0.0729 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : A ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+  }
+  cell (HB3xp67_ASAP7_75t_R) {
+    area : 0.08748 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : A ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+  }
+  cell (HB4xp67_ASAP7_75t_R) {
+    area : 0.10206 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : A ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+  }
+  cell (INVx11_ASAP7_75t_R) {
+    area : 0.18954 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "!A" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+  }
+  cell (INVx13_ASAP7_75t_R) {
+    area : 0.2187 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "!A" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+  }
+  cell (INVx1_ASAP7_75t_R) {
+    area : 0.04374 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "!A" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+  }
+  cell (INVx2_ASAP7_75t_R) {
+    area : 0.05832 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "!A" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+  }
+  cell (INVx3_ASAP7_75t_R) {
+    area : 0.0729 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "!A" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+  }
+  cell (INVx4_ASAP7_75t_R) {
+    area : 0.08748 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "!A" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+  }
+  cell (INVx5_ASAP7_75t_R) {
+    area : 0.10206 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "!A" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+  }
+  cell (INVx6_ASAP7_75t_R) {
+    area : 0.11664 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "!A" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+  }
+  cell (INVx8_ASAP7_75t_R) {
+    area : 0.1458 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "!A" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+  }
+  cell (INVxp33_ASAP7_75t_R) {
+    area : 0.04374 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "!A" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+  }
+  cell (INVxp67_ASAP7_75t_R) {
+    area : 0.04374 ;
+    pg_pin (VDD) {
+      direction : input ;
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      direction : input ;
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Y) {
+      direction : output ;
+      function : "!A" ;
+    }
+    pin (A) {
+      direction : input ;
+    }
+  }
+}
+library (asap7sc7p5t_SEQ_RVT_TT_nldm_220123) {
+  cell (DFFASRHQNx1_ASAP7_75t_R) {
+    area : 0.37908 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (QN) {
+      direction : output ;
+      function : IQN ;
+    }
+    pin (CLK) {
+      clock : true ;
+      direction : input ;
+    }
+    pin (D) {
+      direction : input ;
+    }
+    pin (RESETN) {
+      direction : input ;
+    }
+    pin (SETN) {
+      direction : input ;
+    }
+    ff (IQN, IQNN) {
+      clear : "!SETN" ;
+      clear_preset_var1 : L ;
+      clear_preset_var2 : L ;
+      clocked_on : CLK ;
+      next_state : "!D" ;
+      power_down_function : "(!VDD) + (VSS)" ;
+      preset : "!RESETN" ;
+    }
+  }
+  cell (DFFHQNx1_ASAP7_75t_R) {
+    area : 0.2916 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (QN) {
+      direction : output ;
+      function : IQN ;
+    }
+    pin (CLK) {
+      clock : true ;
+      direction : input ;
+    }
+    pin (D) {
+      direction : input ;
+    }
+    ff (IQN, IQNN) {
+      clocked_on : CLK ;
+      next_state : "!D" ;
+      power_down_function : "(!VDD) + (VSS)" ;
+    }
+  }
+  cell (DFFHQNx2_ASAP7_75t_R) {
+    area : 0.30618 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (QN) {
+      direction : output ;
+      function : IQN ;
+    }
+    pin (CLK) {
+      clock : true ;
+      direction : input ;
+    }
+    pin (D) {
+      direction : input ;
+    }
+    ff (IQN, IQNN) {
+      clocked_on : CLK ;
+      next_state : "!D" ;
+      power_down_function : "(!VDD) + (VSS)" ;
+    }
+  }
+  cell (DFFHQNx3_ASAP7_75t_R) {
+    area : 0.32076 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (QN) {
+      direction : output ;
+      function : IQN ;
+    }
+    pin (CLK) {
+      clock : true ;
+      direction : input ;
+    }
+    pin (D) {
+      direction : input ;
+    }
+    ff (IQN, IQNN) {
+      clocked_on : CLK ;
+      next_state : "!D" ;
+      power_down_function : "(!VDD) + (VSS)" ;
+    }
+  }
+  cell (DFFHQx4_ASAP7_75t_R) {
+    area : 0.3645 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Q) {
+      direction : output ;
+      function : IQ ;
+    }
+    pin (CLK) {
+      clock : true ;
+      direction : input ;
+    }
+    pin (D) {
+      direction : input ;
+    }
+    ff (IQ, IQN) {
+      clocked_on : CLK ;
+      next_state : D ;
+      power_down_function : "(!VDD) + (VSS)" ;
+    }
+  }
+  cell (DFFLQNx1_ASAP7_75t_R) {
+    area : 0.2916 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (QN) {
+      direction : output ;
+      function : IQN ;
+    }
+    pin (CLK) {
+      clock : true ;
+      direction : input ;
+    }
+    pin (D) {
+      direction : input ;
+    }
+    ff (IQN, IQNN) {
+      clocked_on : "!CLK" ;
+      next_state : "!D" ;
+      power_down_function : "(!VDD) + (VSS)" ;
+    }
+  }
+  cell (DFFLQNx2_ASAP7_75t_R) {
+    area : 0.30618 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (QN) {
+      direction : output ;
+      function : IQN ;
+    }
+    pin (CLK) {
+      clock : true ;
+      direction : input ;
+    }
+    pin (D) {
+      direction : input ;
+    }
+    ff (IQN, IQNN) {
+      clocked_on : "!CLK" ;
+      next_state : "!D" ;
+      power_down_function : "(!VDD) + (VSS)" ;
+    }
+  }
+  cell (DFFLQNx3_ASAP7_75t_R) {
+    area : 0.32076 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (QN) {
+      direction : output ;
+      function : IQN ;
+    }
+    pin (CLK) {
+      clock : true ;
+      direction : input ;
+    }
+    pin (D) {
+      direction : input ;
+    }
+    ff (IQN, IQNN) {
+      clocked_on : "!CLK" ;
+      next_state : "!D" ;
+      power_down_function : "(!VDD) + (VSS)" ;
+    }
+  }
+  cell (DFFLQx4_ASAP7_75t_R) {
+    area : 0.3645 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Q) {
+      direction : output ;
+      function : IQ ;
+    }
+    pin (CLK) {
+      clock : true ;
+      direction : input ;
+    }
+    pin (D) {
+      direction : input ;
+    }
+    ff (IQ, IQN) {
+      clocked_on : "!CLK" ;
+      next_state : D ;
+      power_down_function : "(!VDD) + (VSS)" ;
+    }
+  }
+  cell (DHLx1_ASAP7_75t_R) {
+    area : 0.2187 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Q) {
+      direction : output ;
+      function : IQ ;
+    }
+    pin (CLK) {
+      clock : true ;
+      direction : input ;
+    }
+    pin (D) {
+      direction : input ;
+    }
+    latch (IQ, IQN) {
+      data_in : D ;
+      enable : CLK ;
+      power_down_function : "(!VDD) + (VSS)" ;
+    }
+  }
+  cell (DHLx2_ASAP7_75t_R) {
+    area : 0.23328 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Q) {
+      direction : output ;
+      function : IQ ;
+    }
+    pin (CLK) {
+      clock : true ;
+      direction : input ;
+    }
+    pin (D) {
+      direction : input ;
+    }
+    latch (IQ, IQN) {
+      data_in : D ;
+      enable : CLK ;
+      power_down_function : "(!VDD) + (VSS)" ;
+    }
+  }
+  cell (DHLx3_ASAP7_75t_R) {
+    area : 0.24786 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Q) {
+      direction : output ;
+      function : IQ ;
+    }
+    pin (CLK) {
+      clock : true ;
+      direction : input ;
+    }
+    pin (D) {
+      direction : input ;
+    }
+    latch (IQ, IQN) {
+      data_in : D ;
+      enable : CLK ;
+      power_down_function : "(!VDD) + (VSS)" ;
+    }
+  }
+  cell (DLLx1_ASAP7_75t_R) {
+    area : 0.2187 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Q) {
+      direction : output ;
+      function : IQ ;
+    }
+    pin (CLK) {
+      clock : true ;
+      direction : input ;
+    }
+    pin (D) {
+      direction : input ;
+    }
+    latch (IQ, IQN) {
+      data_in : D ;
+      enable : "!CLK" ;
+      power_down_function : "(!VDD) + (VSS)" ;
+    }
+  }
+  cell (DLLx2_ASAP7_75t_R) {
+    area : 0.23328 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Q) {
+      direction : output ;
+      function : IQ ;
+    }
+    pin (CLK) {
+      clock : true ;
+      direction : input ;
+    }
+    pin (D) {
+      direction : input ;
+    }
+    latch (IQ, IQN) {
+      data_in : D ;
+      enable : "!CLK" ;
+      power_down_function : "(!VDD) + (VSS)" ;
+    }
+  }
+  cell (DLLx3_ASAP7_75t_R) {
+    area : 0.24786 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (Q) {
+      direction : output ;
+      function : IQ ;
+    }
+    pin (CLK) {
+      clock : true ;
+      direction : input ;
+    }
+    pin (D) {
+      direction : input ;
+    }
+    latch (IQ, IQN) {
+      data_in : D ;
+      enable : "!CLK" ;
+      power_down_function : "(!VDD) + (VSS)" ;
+    }
+  }
+  cell (ICGx1_ASAP7_75t_R) {
+    area : 0.26244 ;
+    clock_gating_integrated_cell : latch_posedge_precontrol ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    statetable ("CLK ENA SE", IQ) {
+      table : "L L L : - : L ,                 L L H : - : H ,                L H L : - : H ,                L H H : - : H ,                H - - : - : N " ;
+    }
+    pin (IQ) {
+      direction : internal ;
+    }
+    pin (GCLK) {
+      clock_gate_out_pin : true ;
+      direction : output ;
+      state_function : "CLK & IQ" ;
+    }
+    pin (CLK) {
+      clock : true ;
+      clock_gate_clock_pin : true ;
+      direction : input ;
+    }
+    pin (ENA) {
+      clock_gate_enable_pin : true ;
+      direction : input ;
+    }
+    pin (SE) {
+      clock_gate_test_pin : true ;
+      direction : input ;
+    }
+  }
+  cell (ICGx2_ASAP7_75t_R) {
+    area : 0.27702 ;
+    clock_gating_integrated_cell : latch_posedge_precontrol ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    statetable ("CLK ENA SE", IQ) {
+      table : "L L L : - : L ,                 L L H : - : H ,                L H L : - : H ,                L H H : - : H ,                H - - : - : N " ;
+    }
+    pin (IQ) {
+      direction : internal ;
+    }
+    pin (GCLK) {
+      clock_gate_out_pin : true ;
+      direction : output ;
+      state_function : "CLK & IQ" ;
+    }
+    pin (CLK) {
+      clock : true ;
+      clock_gate_clock_pin : true ;
+      direction : input ;
+    }
+    pin (ENA) {
+      clock_gate_enable_pin : true ;
+      direction : input ;
+    }
+    pin (SE) {
+      clock_gate_test_pin : true ;
+      direction : input ;
+    }
+  }
+  cell (ICGx2p67DC_ASAP7_75t_R) {
+    area : 0.69984 ;
+    clock_gating_integrated_cell : latch_posedge_precontrol ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    statetable ("CLK ENA SE", IQ) {
+      table : "L L L : - : L ,                 L L H : - : H ,                L H L : - : H ,                L H H : - : H ,                H - - : - : N " ;
+    }
+    pin (IQ) {
+      direction : internal ;
+    }
+    pin (GCLK) {
+      clock_gate_out_pin : true ;
+      direction : output ;
+      state_function : "CLK & IQ" ;
+    }
+    pin (CLK) {
+      clock : true ;
+      clock_gate_clock_pin : true ;
+      direction : input ;
+    }
+    pin (ENA) {
+      clock_gate_enable_pin : true ;
+      direction : input ;
+    }
+    pin (SE) {
+      clock_gate_test_pin : true ;
+      direction : input ;
+    }
+  }
+  cell (ICGx3_ASAP7_75t_R) {
+    area : 0.2916 ;
+    clock_gating_integrated_cell : latch_posedge_precontrol ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    statetable ("CLK ENA SE", IQ) {
+      table : "L L L : - : L ,                 L L H : - : H ,                L H L : - : H ,                L H H : - : H ,                H - - : - : N " ;
+    }
+    pin (IQ) {
+      direction : internal ;
+    }
+    pin (GCLK) {
+      clock_gate_out_pin : true ;
+      direction : output ;
+      state_function : "CLK & IQ" ;
+    }
+    pin (CLK) {
+      clock : true ;
+      clock_gate_clock_pin : true ;
+      direction : input ;
+    }
+    pin (ENA) {
+      clock_gate_enable_pin : true ;
+      direction : input ;
+    }
+    pin (SE) {
+      clock_gate_test_pin : true ;
+      direction : input ;
+    }
+  }
+  cell (ICGx4DC_ASAP7_75t_R) {
+    area : 0.69984 ;
+    clock_gating_integrated_cell : latch_posedge_precontrol ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    statetable ("CLK ENA SE", IQ) {
+      table : "L L L : - : L ,                 L L H : - : H ,                L H L : - : H ,                L H H : - : H ,                H - - : - : N " ;
+    }
+    pin (IQ) {
+      direction : internal ;
+    }
+    pin (GCLK) {
+      clock_gate_out_pin : true ;
+      direction : output ;
+      state_function : "CLK & IQ" ;
+    }
+    pin (CLK) {
+      clock : true ;
+      clock_gate_clock_pin : true ;
+      direction : input ;
+    }
+    pin (ENA) {
+      clock_gate_enable_pin : true ;
+      direction : input ;
+    }
+    pin (SE) {
+      clock_gate_test_pin : true ;
+      direction : input ;
+    }
+  }
+  cell (ICGx4_ASAP7_75t_R) {
+    area : 0.30618 ;
+    clock_gating_integrated_cell : latch_posedge_precontrol ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    statetable ("CLK ENA SE", IQ) {
+      table : "L L L : - : L ,                 L L H : - : H ,                L H L : - : H ,                L H H : - : H ,                H - - : - : N " ;
+    }
+    pin (IQ) {
+      direction : internal ;
+    }
+    pin (GCLK) {
+      clock_gate_out_pin : true ;
+      direction : output ;
+      state_function : "CLK & IQ" ;
+    }
+    pin (CLK) {
+      clock : true ;
+      clock_gate_clock_pin : true ;
+      direction : input ;
+    }
+    pin (ENA) {
+      clock_gate_enable_pin : true ;
+      direction : input ;
+    }
+    pin (SE) {
+      clock_gate_test_pin : true ;
+      direction : input ;
+    }
+  }
+  cell (ICGx5_ASAP7_75t_R) {
+    area : 0.32076 ;
+    clock_gating_integrated_cell : latch_posedge_precontrol ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    statetable ("CLK ENA SE", IQ) {
+      table : "L L L : - : L ,                 L L H : - : H ,                L H L : - : H ,                L H H : - : H ,                H - - : - : N " ;
+    }
+    pin (IQ) {
+      direction : internal ;
+    }
+    pin (GCLK) {
+      clock_gate_out_pin : true ;
+      direction : output ;
+      state_function : "CLK & IQ" ;
+    }
+    pin (CLK) {
+      clock : true ;
+      clock_gate_clock_pin : true ;
+      direction : input ;
+    }
+    pin (ENA) {
+      clock_gate_enable_pin : true ;
+      direction : input ;
+    }
+    pin (SE) {
+      clock_gate_test_pin : true ;
+      direction : input ;
+    }
+  }
+  cell (ICGx5p33DC_ASAP7_75t_R) {
+    area : 0.69984 ;
+    clock_gating_integrated_cell : latch_posedge_precontrol ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    statetable ("CLK ENA SE", IQ) {
+      table : "L L L : - : L ,                 L L H : - : H ,                L H L : - : H ,                L H H : - : H ,                H - - : - : N " ;
+    }
+    pin (IQ) {
+      direction : internal ;
+    }
+    pin (GCLK) {
+      clock_gate_out_pin : true ;
+      direction : output ;
+      state_function : "CLK & IQ" ;
+    }
+    pin (CLK) {
+      clock : true ;
+      clock_gate_clock_pin : true ;
+      direction : input ;
+    }
+    pin (ENA) {
+      clock_gate_enable_pin : true ;
+      direction : input ;
+    }
+    pin (SE) {
+      clock_gate_test_pin : true ;
+      direction : input ;
+    }
+  }
+  cell (ICGx6p67DC_ASAP7_75t_R) {
+    area : 0.69984 ;
+    clock_gating_integrated_cell : latch_posedge_precontrol ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    statetable ("CLK ENA SE", IQ) {
+      table : "L L L : - : L ,                 L L H : - : H ,                L H L : - : H ,                L H H : - : H ,                H - - : - : N " ;
+    }
+    pin (IQ) {
+      direction : internal ;
+    }
+    pin (GCLK) {
+      clock_gate_out_pin : true ;
+      direction : output ;
+      state_function : "CLK & IQ" ;
+    }
+    pin (CLK) {
+      clock : true ;
+      clock_gate_clock_pin : true ;
+      direction : input ;
+    }
+    pin (ENA) {
+      clock_gate_enable_pin : true ;
+      direction : input ;
+    }
+    pin (SE) {
+      clock_gate_test_pin : true ;
+      direction : input ;
+    }
+  }
+  cell (ICGx8DC_ASAP7_75t_R) {
+    area : 0.69984 ;
+    clock_gating_integrated_cell : latch_posedge_precontrol ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    statetable ("CLK ENA SE", IQ) {
+      table : "L L L : - : L ,                 L L H : - : H ,                L H L : - : H ,                L H H : - : H ,                H - - : - : N " ;
+    }
+    pin (IQ) {
+      direction : internal ;
+    }
+    pin (GCLK) {
+      clock_gate_out_pin : true ;
+      direction : output ;
+      state_function : "CLK & IQ" ;
+    }
+    pin (CLK) {
+      clock : true ;
+      clock_gate_clock_pin : true ;
+      direction : input ;
+    }
+    pin (ENA) {
+      clock_gate_enable_pin : true ;
+      direction : input ;
+    }
+    pin (SE) {
+      clock_gate_test_pin : true ;
+      direction : input ;
+    }
+  }
+  cell (SDFHx1_ASAP7_75t_R) {
+    area : 0.3645 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (QN) {
+      direction : output ;
+      function : IQN ;
+    }
+    pin (CLK) {
+      clock : true ;
+      direction : input ;
+    }
+    pin (D) {
+      direction : input ;
+    }
+    pin (SE) {
+      direction : input ;
+    }
+    pin (SI) {
+      direction : input ;
+    }
+    ff (IQN, IQNN) {
+      clocked_on : CLK ;
+      next_state : "(!D * !SE) + (!D * !SI) + (SE * !SI)" ;
+      power_down_function : "(!VDD) + (VSS)" ;
+    }
+  }
+  cell (SDFHx2_ASAP7_75t_R) {
+    area : 0.37908 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (QN) {
+      direction : output ;
+      function : IQN ;
+    }
+    pin (CLK) {
+      clock : true ;
+      direction : input ;
+    }
+    pin (D) {
+      direction : input ;
+    }
+    pin (SE) {
+      direction : input ;
+    }
+    pin (SI) {
+      direction : input ;
+    }
+    ff (IQN, IQNN) {
+      clocked_on : CLK ;
+      next_state : "(!D * !SE) + (!D * !SI) + (SE * !SI)" ;
+      power_down_function : "(!VDD) + (VSS)" ;
+    }
+  }
+  cell (SDFHx3_ASAP7_75t_R) {
+    area : 0.39366 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (QN) {
+      direction : output ;
+      function : IQN ;
+    }
+    pin (CLK) {
+      clock : true ;
+      direction : input ;
+    }
+    pin (D) {
+      direction : input ;
+    }
+    pin (SE) {
+      direction : input ;
+    }
+    pin (SI) {
+      direction : input ;
+    }
+    ff (IQN, IQNN) {
+      clocked_on : CLK ;
+      next_state : "(!D * !SE) + (!D * !SI) + (SE * !SI)" ;
+      power_down_function : "(!VDD) + (VSS)" ;
+    }
+  }
+  cell (SDFHx4_ASAP7_75t_R) {
+    area : 0.45198 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (QN) {
+      direction : output ;
+      function : IQN ;
+    }
+    pin (CLK) {
+      clock : true ;
+      direction : input ;
+    }
+    pin (D) {
+      direction : input ;
+    }
+    pin (SE) {
+      direction : input ;
+    }
+    pin (SI) {
+      direction : input ;
+    }
+    ff (IQN, IQNN) {
+      clocked_on : CLK ;
+      next_state : "(!D * !SE) + (!D * !SI) + (SE * !SI)" ;
+      power_down_function : "(!VDD) + (VSS)" ;
+    }
+  }
+  cell (SDFLx1_ASAP7_75t_R) {
+    area : 0.3645 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (QN) {
+      direction : output ;
+      function : IQN ;
+    }
+    pin (CLK) {
+      clock : true ;
+      direction : input ;
+    }
+    pin (D) {
+      direction : input ;
+    }
+    pin (SE) {
+      direction : input ;
+    }
+    pin (SI) {
+      direction : input ;
+    }
+    ff (IQN, IQNN) {
+      clocked_on : "!CLK" ;
+      next_state : "(!D * !SE) + (!D * !SI) + (SE * !SI)" ;
+      power_down_function : "(!VDD) + (VSS)" ;
+    }
+  }
+  cell (SDFLx2_ASAP7_75t_R) {
+    area : 0.37908 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (QN) {
+      direction : output ;
+      function : IQN ;
+    }
+    pin (CLK) {
+      clock : true ;
+      direction : input ;
+    }
+    pin (D) {
+      direction : input ;
+    }
+    pin (SE) {
+      direction : input ;
+    }
+    pin (SI) {
+      direction : input ;
+    }
+    ff (IQN, IQNN) {
+      clocked_on : "!CLK" ;
+      next_state : "(!D * !SE) + (!D * !SI) + (SE * !SI)" ;
+      power_down_function : "(!VDD) + (VSS)" ;
+    }
+  }
+  cell (SDFLx3_ASAP7_75t_R) {
+    area : 0.39366 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (QN) {
+      direction : output ;
+      function : IQN ;
+    }
+    pin (CLK) {
+      clock : true ;
+      direction : input ;
+    }
+    pin (D) {
+      direction : input ;
+    }
+    pin (SE) {
+      direction : input ;
+    }
+    pin (SI) {
+      direction : input ;
+    }
+    ff (IQN, IQNN) {
+      clocked_on : "!CLK" ;
+      next_state : "(!D * !SE) + (!D * !SI) + (SE * !SI)" ;
+      power_down_function : "(!VDD) + (VSS)" ;
+    }
+  }
+  cell (SDFLx4_ASAP7_75t_R) {
+    area : 0.45198 ;
+    pg_pin (VDD) {
+      pg_type : primary_power ;
+      voltage_name : VDD ;
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground ;
+      voltage_name : VSS ;
+    }
+    pin (QN) {
+      direction : output ;
+      function : IQN ;
+    }
+    pin (CLK) {
+      clock : true ;
+      direction : input ;
+    }
+    pin (D) {
+      direction : input ;
+    }
+    pin (SE) {
+      direction : input ;
+    }
+    pin (SI) {
+      direction : input ;
+    }
+    ff (IQN, IQNN) {
+      clocked_on : "!CLK" ;
+      next_state : "(!D * !SE) + (!D * !SI) + (SE * !SI)" ;
+      power_down_function : "(!VDD) + (VSS)" ;
+    }
+  }
+}

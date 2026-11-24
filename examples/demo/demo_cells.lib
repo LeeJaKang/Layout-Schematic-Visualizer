@@ -1,0 +1,332 @@
+/* demo_cells: example library for the viewer. Only pins and functions. */
+library (demo_cells) {
+  delay_model : table_lookup;
+  time_unit : "1ns";
+  cell (INV_X1) {
+    area : 1.0;
+    pin (A) {
+      direction : input;
+    }
+    pin (Y) {
+      direction : output;
+      function : "!A";
+    }
+  }
+  cell (BUF_X2) {
+    area : 1.0;
+    pin (A) {
+      direction : input;
+    }
+    pin (Y) {
+      direction : output;
+      function : "A";
+    }
+  }
+  cell (NAND2_X1) {
+    area : 1.0;
+    pin (A) {
+      direction : input;
+    }
+    pin (B) {
+      direction : input;
+    }
+    pin (Y) {
+      direction : output;
+      function : "(!A) + (!B)";
+    }
+  }
+  cell (NOR2_X1) {
+    area : 1.0;
+    pin (A) {
+      direction : input;
+    }
+    pin (B) {
+      direction : input;
+    }
+    pin (Y) {
+      direction : output;
+      function : "(!A * !B)";
+    }
+  }
+  cell (AND2_X1) {
+    area : 1.0;
+    pin (A) {
+      direction : input;
+    }
+    pin (B) {
+      direction : input;
+    }
+    pin (Y) {
+      direction : output;
+      function : "A & B";
+    }
+  }
+  cell (OR3_X1) {
+    area : 1.0;
+    pin (A) {
+      direction : input;
+    }
+    pin (B) {
+      direction : input;
+    }
+    pin (C) {
+      direction : input;
+    }
+    pin (Y) {
+      direction : output;
+      function : "A | B | C";
+    }
+  }
+  cell (XOR2_X1) {
+    area : 1.0;
+    pin (A) {
+      direction : input;
+    }
+    pin (B) {
+      direction : input;
+    }
+    pin (Y) {
+      direction : output;
+      function : "A ^ B";
+    }
+  }
+  cell (XNOR2_X1) {
+    area : 1.0;
+    pin (A) {
+      direction : input;
+    }
+    pin (B) {
+      direction : input;
+    }
+    pin (Y) {
+      direction : output;
+      function : "!(A ^ B)";
+    }
+  }
+  cell (AN2B_X1) {
+    area : 1.0;
+    pin (AN) {
+      direction : input;
+    }
+    pin (B) {
+      direction : input;
+    }
+    pin (Y) {
+      direction : output;
+      function : "!AN & B";
+    }
+  }
+  cell (OR2B_X1) {
+    area : 1.0;
+    pin (AN) {
+      direction : input;
+    }
+    pin (B) {
+      direction : input;
+    }
+    pin (Y) {
+      direction : output;
+      function : "AN' + B";
+    }
+  }
+  cell (AOI22_X1) {
+    area : 1.0;
+    pin (A1) {
+      direction : input;
+    }
+    pin (A2) {
+      direction : input;
+    }
+    pin (B1) {
+      direction : input;
+    }
+    pin (B2) {
+      direction : input;
+    }
+    pin (Y) {
+      direction : output;
+      function : "(!A1 * !B1) + (!A1 * !B2) + (!A2 * !B1) + (!A2 * !B2)";
+    }
+  }
+  cell (OAI21_X1) {
+    area : 1.0;
+    pin (A1) {
+      direction : input;
+    }
+    pin (A2) {
+      direction : input;
+    }
+    pin (B) {
+      direction : input;
+    }
+    pin (Y) {
+      direction : output;
+      function : "(!A1 * !A2) + (!B)";
+    }
+  }
+  cell (MUX2_X1) {
+    area : 1.0;
+    pin (A) {
+      direction : input;
+    }
+    pin (B) {
+      direction : input;
+    }
+    pin (S) {
+      direction : input;
+    }
+    pin (Y) {
+      direction : output;
+      function : "(A * !S) + (B * S)";
+    }
+  }
+  cell (MAJ3_X1) {
+    area : 1.0;
+    pin (A) {
+      direction : input;
+    }
+    pin (B) {
+      direction : input;
+    }
+    pin (C) {
+      direction : input;
+    }
+    pin (Y) {
+      direction : output;
+      function : "(A * B) + (A * C) + (B * C)";
+    }
+  }
+  cell (FA_X1) {
+    area : 1.0;
+    pin (A) {
+      direction : input;
+    }
+    pin (B) {
+      direction : input;
+    }
+    pin (CI) {
+      direction : input;
+    }
+    pin (S) {
+      direction : output;
+      function : "A ^ B ^ CI";
+    }
+    pin (CO) {
+      direction : output;
+      function : "(A * B) + (A * CI) + (B * CI)";
+    }
+  }
+  cell (DFFR_X1) {
+    area : 1.0;
+    pin (D) {
+      direction : input;
+    }
+    pin (CK) {
+      direction : input;
+      clock : true;
+    }
+    pin (RN) {
+      direction : input;
+    }
+    pin (Q) {
+      direction : output;
+      function : "IQ";
+    }
+    pin (QN) {
+      direction : output;
+      function : "IQN";
+    }
+    ff (IQ, IQN) {
+      next_state : "D";
+      clocked_on : "CK";
+      clear : "!RN";
+    }
+  }
+  cell (SDFF_X1) {
+    area : 1.0;
+    pin (D) {
+      direction : input;
+    }
+    pin (SI) {
+      direction : input;
+    }
+    pin (SE) {
+      direction : input;
+    }
+    pin (CK) {
+      direction : input;
+      clock : true;
+    }
+    pin (Q) {
+      direction : output;
+      function : "IQ";
+    }
+    ff (IQ, IQN) {
+      next_state : "(D * !SE) + (SI * SE)";
+      clocked_on : "CK";
+    }
+  }
+  cell (LATN_X1) {
+    area : 1.0;
+    pin (D) {
+      direction : input;
+    }
+    pin (GN) {
+      direction : input;
+    }
+    pin (Q) {
+      direction : output;
+      function : "IQ";
+    }
+    latch (IQ, IQN) {
+      data_in : "D";
+      enable : "!GN";
+    }
+  }
+  cell (TBUF_X1) {
+    area : 1.0;
+    pin (A) {
+      direction : input;
+    }
+    pin (OE) {
+      direction : input;
+    }
+    pin (Y) {
+      direction : output;
+      function : "A";
+      three_state : "!OE";
+    }
+  }
+  cell (ICG_X1) {
+    area : 1.0;
+    pin (CK) {
+      direction : input;
+      clock_gate_clock_pin : true;
+    }
+    pin (E) {
+      direction : input;
+      clock_gate_enable_pin : true;
+    }
+    pin (SE) {
+      direction : input;
+      clock_gate_test_pin : true;
+    }
+    pin (GCK) {
+      direction : output;
+      clock_gate_out_pin : true;
+      state_function : "CK & IQ";
+    }
+    clock_gating_integrated_cell : latch_posedge_precontrol;
+    statetable ("CK E SE", "IQ") {
+      table : "L L L : - : L, L H - : - : H, L - H : - : H, H - - : - : N";
+    }
+  }
+  cell (TIELO_X1) {
+    area : 1.0;
+    pin (Y) {
+      direction : output;
+      function : "0";
+    }
+  }
+
+}

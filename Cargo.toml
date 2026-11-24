@@ -1,0 +1,64 @@
+[package]
+name = "lsv"
+version = "0.1.0"
+edition = "2021"
+description = "Layout Schematic Visualizer: visualization and analysis of gate-level netlists, block layouts and library cells (desktop)"
+license = "BSD-3-Clause"
+
+[dependencies]
+flate2 = { version = "1", default-features = false, features = ["zlib-rs"] }
+rayon = "1"
+memchr = "2"
+serde_json = "1"
+eframe = { version = "0.37.0", default-features = false, features = ["wgpu", "default_fonts", "wayland", "x11"] }
+bytemuck = { version = "1.25.2", features = ["derive"] }
+rfd = "0.18.0"
+pollster = "1.0.3"
+png = "0.18.1"
+egui_dock = "0.22.0"
+
+[profile.release]
+opt-level = 3
+lto = "thin"
+codegen-units = 4
+debug = false
+
+[[bin]]
+name = "lsv-check"
+path = "src/bin/lsv-check.rs"
+
+[[bin]]
+name = "lsv-render"
+path = "src/bin/lsv-render.rs"
+
+[[bin]]
+name = "lsv"
+path = "src/bin/lsv.rs"
+
+[[bin]]
+name = "lsv-cells"
+path = "src/bin/lsv-cells.rs"
+
+[[bin]]
+name = "lsv-net"
+path = "src/bin/lsv-net.rs"
+
+[[bin]]
+name = "lsv-sch"
+path = "src/bin/lsv-sch.rs"
+
+[[bin]]
+name = "lsv-lvs"
+path = "src/bin/lsv-lvs.rs"
+
+[[bin]]
+name = "lsv-xtor"
+path = "src/bin/lsv-xtor.rs"
+
+[[bin]]
+name = "lsv-uitest"
+path = "src/bin/lsv-uitest.rs"
+
+[[bin]]
+name = "lsv-schrender"
+path = "src/bin/lsv-schrender.rs"
